@@ -1,0 +1,112 @@
+html{
+    background-image: url(Immagini/background.jpg); 
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 90vw 110vh;
+    background-color: black;
+}
+    
+body{    
+    display: block;
+    background-color: rgba(0,0,0,.5); /* Colore Trasparente */
+    color: #fff;
+    padding: 5%;
+    margin-top: 1%;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-bottom: auto;
+    border-radius: 2%;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+.icon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    
+}
+
+.textlogo{
+    margin: auto;
+    width: 50%;
+    color: lime;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+nav{
+    width: 95%;
+}
+
+.topnav{
+    position: relative;
+    background-color: lime;
+    overflow: hidden;
+    height: 50px;
+}
+
+.topnav input{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 1px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav-left{
+    float: left;
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+  }
+
+  .topnav-centered{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .topnav-right{
+    float: right;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+  }
+
+  .utenti{
+    font-size: 25px;
+  }
+
+   #batteryLevel1 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(233, 142, 63);
+    width: 260px;
+    height: 20px;
+  }
+
+  #batteryLevel2 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: limegreen;
+    width: 480px;
+    height: 20px;
+  }
+
+  #batteryLevel3 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: crimson;
+    width: 130px;
+    height: 20px;
+  }
